@@ -12,13 +12,20 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #0f172a;
+
+            background-image: url("background.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
             color: #e2e8f0;
             text-align: center;
+            min-height: 100vh;
         }
 
         nav {
-            background-color: #020617;
+            background-color: rgba(2, 6, 23, 0.9);
             padding: 20px;
         }
 
@@ -36,6 +43,14 @@
 
         header {
             padding: 140px 20px;
+        }
+
+        .intro-box {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px;
+            background-color: rgba(2, 6, 23, 0.72);
+            border-radius: 15px;
         }
 
         header h1 {
@@ -90,23 +105,27 @@
 
     <header>
 
-        <h1>
-            Taylor Myers
-        </h1>
+        <div class="intro-box">
 
-        <h2>
-            Cybersecurity Portfolio
-        </h2>
+            <h1>
+                Taylor Myers
+            </h1>
 
-        <p>
-            Welcome to my cybersecurity portfolio. Explore my projects, skills, 
-            and hands-on experience in networking, cloud computing, vulnerability 
-            management, and security as I continue building my career in cybersecurity. 
-        </p>
+            <h2>
+                Cybersecurity Portfolio
+            </h2>
 
-        <p> 
-            Take a look around to learn more about my experience and the work I have completed.
-        </p>
+            <p>
+                Welcome to my cybersecurity portfolio. Explore my projects, skills,
+                and hands-on experience in networking, cloud computing, vulnerability
+                management, and security as I continue building my career in cybersecurity.
+            </p>
+
+            <p>
+                Take a look around to learn more about my experience and the work I have completed.
+            </p>
+
+        </div>
 
     </header>
 
