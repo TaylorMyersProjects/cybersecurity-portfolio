@@ -1,0 +1,90 @@
+SOHO-Deskto-PC1
+
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::2E0:B0FF:FEBD:7DB9
+   IPv6 Address....................: ::
+   IPv4 Address....................: 192.168.0.153
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: ::
+                                     192.168.0.1
+
+C:\>ping www.cnt.org
+
+Pinging 8.8.8.9 with 32 bytes of data:
+
+Request timed out.
+Reply from 8.8.8.9: bytes=32 time<1ms TTL=126
+Reply from 8.8.8.9: bytes=32 time<1ms TTL=126
+Reply from 8.8.8.9: bytes=32 time<1ms TTL=126
+
+Ping statistics for 8.8.8.9:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+
+
+
+SOHO-Laptop-2.4
+
+C:\>ipconfig
+
+Wireless0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::20A:41FF:FEBA:9A75
+   IPv6 Address....................: ::
+   IPv4 Address....................: 192.168.0.152
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: ::
+                                     192.168.0.1
+
+C:\>ping www.cnt.org
+
+Pinging 8.8.8.9 with 32 bytes of data:
+
+Reply from 8.8.8.9: bytes=32 time=278ms TTL=126
+Reply from 8.8.8.9: bytes=32 time=25ms TTL=126
+Reply from 8.8.8.9: bytes=32 time=18ms TTL=126
+Reply from 8.8.8.9: bytes=32 time=7ms TTL=126
+
+Ping statistics for 8.8.8.9:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 7ms, Maximum = 278ms, Average = 82ms
+
+
+
+
+SOHO-Lapto-5
+
+C:\>ipconfig
+
+Wireless0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::20D:BDFF:FE81:6C11
+   IPv6 Address....................: ::
+   IPv4 Address....................: 192.168.0.151
+   Subnet Mask.....................: 255.255.255.0
+   Default Gateway.................: ::
+                                     192.168.0.1
+
+C:\>ping www.cnt.org
+
+Pinging 8.8.8.9 with 32 bytes of data:
+
+Reply from 8.8.8.9: bytes=32 time=26ms TTL=126
+Reply from 8.8.8.9: bytes=32 time=18ms TTL=126
+Reply from 8.8.8.9: bytes=32 time=25ms TTL=126
+Reply from 8.8.8.9: bytes=32 time=26ms TTL=126
+
+Ping statistics for 8.8.8.9:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 18ms, Maximum = 26ms, Average = 23ms
+
