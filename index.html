@@ -60,6 +60,12 @@
         ul {
             padding-left: 20px;
         }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
     </style>
 </head>
 
@@ -87,9 +93,9 @@
         <h2>About Me</h2>
 
         <p>
-            I am a Cybersecurity Technolgoy student building hands-on experience
-            in networking, cloud computing, vulnerability management, and security. 
-            My portfolio highlights projects and labs that demonstrate my technical 
+            I am a Cybersecurity Technology student building hands-on experience
+            in networking, cloud computing, vulnerability management, and security.
+            My portfolio highlights projects and labs that demonstrate my technical
             skills, troubleshooting abilities, and continued growth in cybersecurity.
         </p>
     </section>
@@ -97,13 +103,21 @@
     <section id="skills">
         <h2>Skills</h2>
 
-        <ul>
-            <li>Networking</li>
-            <li>AWS Cloud Computing</li>
-            <li>Cybersecurity Fundamentals</li>
-            <li>Vulnerability Management</li>
-            <li>Technical Troubleshooting</li>
-        </ul>
+        <div class="skills-grid">
+
+            <ul>
+                <li><b>Networking</b></li>
+                <li><b>AWS Cloud Computing</b></li>
+                <li><b>Cybersecurity Fundamentals</b></li>
+            </ul>
+
+            <ul>
+                <li><b>Vulnerability Management</b></li>
+                <li><b>Technical Troubleshooting</b></li>
+                <li><b>Security Operations</b></li>
+            </ul>
+
+        </div>
     </section>
 
     <section id="projects">
